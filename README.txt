@@ -1,0 +1,2 @@
+-freeglut.dll must be in the same folder as the .exe
+-To pipe an .obj into the exe, use Ubuntu on Windows Subsystem for Linux (WSL)
