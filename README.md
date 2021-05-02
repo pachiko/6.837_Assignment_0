@@ -6,7 +6,8 @@
 2) In WSL, run `export DISPLAY=:0` (you would have to run this for each shell session)
 3) Test if OpenGL works `glxgears`
 4) Install vecmath library https://github.com/ydm/mit-vecmath. `make` then `make install`.
-5) `make` the assignment. Pipe an .obj if you need to:
+- (NOTE: the source code in that repo is outdated. `make` the provided code in the assignment)
+6) `make` the assignment. Pipe an .obj if you need to:
 ```
 ./a0
 ./a0 < garg.obj
