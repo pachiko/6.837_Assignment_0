@@ -3,7 +3,7 @@
 
 # How to use WSL to run this:
 1) Install and Run XServer (XMing, X410 etc)
-2) In WSL, run `export DISPLAY=:0` (you would have to run this for each shell session)
+2) In WSL, run `export DISPLAY=:0` (you would have to run this for each shell session, or put it in your `~/.bash_profile` or `~/.bashrc` so you don't have to)
 3) Test if OpenGL works `glxgears`
 4) Install vecmath library https://github.com/ydm/mit-vecmath. `make` then `make install`.
 - (NOTE: the source code in that repo is outdated. `make` the provided code in the assignment)
